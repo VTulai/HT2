@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Java_projects/Java/jenkins_test">
+        <classes>
+            <class name="TestJ">
+                <methods>
+                    <include name=""/>
+                    <include name="testSignIn"/>
+                    <include name="testManage"/>
+                    <include name="testCreateUser"/>
+                    <include name="testDeleteUser"/>
+                    <include name="testEnableDisableAutoRefresh"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
